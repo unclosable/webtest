@@ -86,7 +86,7 @@ Ext.define('webapp.view.main.Main', {
         title: 'Users',
         iconCls: 'fa-user',
         bind: {
-            html: '{loremIpsum}'
+            html: '{loremIpsum} {atest}'
         }
     }, {
         title: 'Groups',
