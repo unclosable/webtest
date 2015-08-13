@@ -12,5 +12,8 @@ Ext.define('webapp.model.StudentModel', {
 	}, {
 		name : 'sex',
 		type : 'int'
-	} ]
+	} ],
+	showStudentInfo : function() {
+		console.log('name:' + this.get('name') + ',age:' + this.get('age'));
+	}
 });

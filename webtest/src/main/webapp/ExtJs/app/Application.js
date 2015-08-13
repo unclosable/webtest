@@ -13,7 +13,9 @@ Ext.define('webapp.Application', {
 	],
 
 	launch : function() {
-		Ext.create('webapp.store.StudentStore');
+		var store=Ext.create('webapp.store.StudentStore',{
+			test:'hello'
+		});
 	},
 
 	onAppUpdate : function() {
