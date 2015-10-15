@@ -15,7 +15,8 @@ Ext.define('webapp.view.main.Main', {
 
         'webapp.view.main.MainController',
         'webapp.view.main.MainModel',
-        'webapp.view.main.List'
+        'webapp.view.main.List',
+        'webapp.view.test.ChartTestPanel'
     ],
 
     controller: 'main',
@@ -85,9 +86,12 @@ Ext.define('webapp.view.main.Main', {
     }, {
         title: 'Users',
         iconCls: 'fa-user',
-        bind: {
-            html: '{loremIpsum} {atest}'
-        }
+        items: [{
+            xtype: 'line-markers'
+        }]
+//        bind: {
+//            html: '{loremIpsum} {atest}'
+//        }
     }, {
         title: 'Groups',
         iconCls: 'fa-users',

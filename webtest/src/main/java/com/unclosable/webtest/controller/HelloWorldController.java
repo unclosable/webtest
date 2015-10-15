@@ -11,14 +11,16 @@ import com.unclosable.webtest.test.testBean;
 
 @Controller
 public class HelloWorldController {
+	static {
+		System.out.println("1232324325432543254325432");
+	}
 	@Resource
 	testBean testBean;
 
 	String message = "Welcome to Spring MVC!";
 
 	@RequestMapping("/hello")
-	public ModelAndView showMessage(
-			@RequestParam(value = "name", required = false, defaultValue = "World") String name) {
+	public ModelAndView showMessage(@RequestParam(value = "name", required = false, defaultValue = "World") String name) {
 		testBean.doSomething();
 		ModelAndView mv = new ModelAndView("test");
 		mv.addObject("message", message);
