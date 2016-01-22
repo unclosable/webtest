@@ -10,6 +10,9 @@
 	<center>
 		<h2>Hello World</h2>
 		<h2>${message} ${name}</h2>
+		<a href="http://localhost:8080/webtest/sxxTest/sxx.htm" target="_blank">
+			<img border="0" hspace="0" src="resources/img/testpic.png">
+		</a>
 	</center>
 </body>
 </html>

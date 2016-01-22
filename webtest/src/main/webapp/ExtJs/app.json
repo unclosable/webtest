@@ -203,6 +203,10 @@
         {
             "path": "app.js",
             "bundle": true
+        },
+        {
+        	"path":"plugins/SXX.js",
+        	"bundle": true
         }
     ],
 

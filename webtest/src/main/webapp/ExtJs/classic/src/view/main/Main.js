@@ -15,8 +15,7 @@ Ext.define('webapp.view.main.Main', {
 
         'webapp.view.main.MainController',
         'webapp.view.main.MainModel',
-        'webapp.view.main.List',
-        'webapp.view.test.ChartTestPanel'
+        'webapp.view.main.List'
     ],
 
     controller: 'main',
