@@ -63,5 +63,6 @@
 
 	<bean
 		class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter" />
+		<import resource="applicationContext-DB.xml"/>
 
 </beans>  
