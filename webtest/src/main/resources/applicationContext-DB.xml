@@ -16,7 +16,7 @@
 		<!-- 指定连接数据库的驱动 -->
 		<property name="driverClass" value="${DB.driverClassName}" />
 		<!-- 指定连接数据库的URL -->
-		<property name="jdbcUrl" value="${DB.host}:${DB.port}" />
+		<property name="jdbcUrl" value="${DB.url}" />
 		<!-- 指定连接数据库的用户名 -->
 		<property name="user" value="${DB.userName}" />
 		<!-- 指定连接数据库的密码 -->
